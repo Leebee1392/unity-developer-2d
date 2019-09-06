@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566cc1f7474785b4ab3ded9a69cee303, type: 3}
+  m_Name: A3
+  m_EditorClassIdentifier: 
+  storyText: "Nobody hears you and the prisoners around you corner you. As the first
+    one takes a swing, do you:\r\n\r\n1. Dodge\r\n2. Hit back"
+  nextStates:
+  - {fileID: 11400000, guid: c331f7076f82ac240950cda6389e79b8, type: 2}
+  - {fileID: 11400000, guid: b639a5e75deed024ca44dd29591edd61, type: 2}

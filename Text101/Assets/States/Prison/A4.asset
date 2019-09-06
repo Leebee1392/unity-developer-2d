@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566cc1f7474785b4ab3ded9a69cee303, type: 3}
+  m_Name: A4
+  m_EditorClassIdentifier: 
+  storyText: "You manage to dodge a swing as you run through a gap in the crowd. You
+    hide in the corner of the courtyard for the rest of the day until a guard finds
+    you and escorts you back to your cell. Do you:\r\n\r\n1. Go straight to sleep\r\n2.
+    Sit and read a book"
+  nextStates:
+  - {fileID: 11400000, guid: 32ffba58074a1f6408a35f2a48fb13ae, type: 2}
+  - {fileID: 11400000, guid: 32ffba58074a1f6408a35f2a48fb13ae, type: 2}

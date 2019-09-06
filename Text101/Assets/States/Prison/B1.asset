@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566cc1f7474785b4ab3ded9a69cee303, type: 3}
+  m_Name: B1
+  m_EditorClassIdentifier: 
+  storyText: "You run for the open door and as you reach out to grab the door a guard
+    slams the door shut. You crash into him and he laughs and tells you that you are
+    an idiot for thinking that would work.\nHe holds out his handcuffs. Do you:\r\n\n1.
+    try to run\r\n2. just accept the fact you are in trouble"
+  nextStates:
+  - {fileID: 11400000, guid: 0d1f1cb81c17ea14ab8206693fdadf36, type: 2}
+  - {fileID: 11400000, guid: 0d1f1cb81c17ea14ab8206693fdadf36, type: 2}

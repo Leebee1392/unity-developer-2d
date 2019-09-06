@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566cc1f7474785b4ab3ded9a69cee303, type: 3}
+  m_Name: Lose
+  m_EditorClassIdentifier: 
+  storyText: "Game over\r\nYou tried your best, but your best just wasn't good enough\r\n\n1.
+    Try to escape again\n2. I will never beat this game, let me go"
+  nextStates:
+  - {fileID: 11400000, guid: f202ed30cb0f59a408a66a7b1879ab36, type: 2}
+  - {fileID: 11400000, guid: 9a6749720121edb4bae230033e565496, type: 2}
